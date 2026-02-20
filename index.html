@@ -1,25 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<title>Trench Warfare</title>
+<title>WWI Trench Warfare</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Trench Warfare</h1>
+
+<h1>WWI Trench Warfare</h1>
 <p>Kills: <span id="kills">0</span></p>
 
-<div id="buttons">
-  <button onclick="buySoldier()">Buy Soldier</button>
-  <button onclick="buyAssault()">Assault Gunner (2 kills)</button>
-  <button onclick="buyCommander()">Commander (4 max)</button>
-  <button onclick="buyFlamethrower()">Flamethrower (5 kills)</button>
-  <button onclick="buyMachineGun()">Machine Gun (10 kills)</button>
-  <button onclick="buyTank()">Tank (60 kills)</button>
-  <button onclick="buyArtillery()">Artillery (2 max)</button>
-</div>
+<canvas id="gameCanvas" width="1200" height="800"></canvas>
 
-<canvas id="gameCanvas" width="1000" height="700"></canvas>
 <script src="game.js"></script>
 </body>
 </html>
